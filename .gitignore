@@ -1,0 +1,27 @@
+# Credenciales y secretos
+.env
+secrets.toml
+.streamlit/secrets.toml
+
+# Modelos entrenados
+models/*.pkl
+
+# Exports generados
+exports/*.csv
+
+# Logs
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# MLflow
+mlruns/
